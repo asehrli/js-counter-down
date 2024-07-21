@@ -17,7 +17,7 @@ const si = setInterval(() => {
 
     if (dif < 0) {
         h2.textContent = localStorage.getItem('event')
-        h3.textContent = 'You are late'
+        h3.textContent = 'Siz kechikdingiz'
     } else {
         const d = Math.floor(dif / 86400)
         dif = dif % 86400
@@ -28,7 +28,7 @@ const si = setInterval(() => {
         const s = dif
 
         h2.textContent = localStorage.getItem('event')
-        h3.textContent = `${d} d ${h} h ${m}:${s}`
+        h3.textContent = `${d} kun ${h} soat ${m}:${s}`
     }
 }, 1000)
 
