@@ -13,7 +13,7 @@ const si = setInterval(() => {
     }
     const currentTime = new Date().getTime()
     let dif = time - currentTime
-    dif = Math.floor(dif / 1000)
+    dif = Math.floor(dif / 1000) - 5 * 60 * 60
 
     if (dif < 0) {
         h2.textContent = localStorage.getItem('event')
