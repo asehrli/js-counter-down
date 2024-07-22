@@ -6,3 +6,46 @@
 .counter {
     color: deeppink;
 }
+
+#set {
+    position: fixed;
+    background-color: rgba(169, 169, 169, 0.6);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1.2s;
+}
+
+
+
+#set form {
+    padding: 0;
+    transition: .8s;
+}
+
+#set .open-close {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 1rem;
+}
+
+#set .open-close svg:hover {
+    color: white;
+    cursor: pointer;
+}
+
+#set.close {
+    height: 13vh;
+    overflow: hidden;
+}
+
+#set.close form {
+    scale: 0;
+}
+
+#set.close svg {
+    transform: rotate(180deg);
+}

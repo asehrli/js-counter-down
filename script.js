@@ -47,4 +47,11 @@ document.addEventListener('DOMContentLoaded', () => {
         const date = new Date(e.target.value);
         localStorage.setItem('time', date.getTime().toString());
     })
+
+    const svg = document.querySelector('svg')
+    const set = document.querySelector('#set')
+    svg.addEventListener('click', () => {
+        set.classList.toggle('close')
+    })
 })
+
