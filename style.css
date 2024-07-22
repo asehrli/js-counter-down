@@ -4,14 +4,15 @@
 }
 
 .counter {
-    color: deeppink;
+    color: #ffaf00;
+    scale: 1.1;
 }
 
 #set {
     position: fixed;
     background-color: rgba(169, 169, 169, 0.6);
     width: 100%;
-    height: 100vh;
+    height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
