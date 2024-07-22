@@ -14,7 +14,13 @@ document.addEventListener('DOMContentLoaded', () => {
         dif = Math.floor(dif / 1000) - 5 * 60 * 60
 
         if (dif < 0) {
-            h2.textContent = localStorage.getItem('event')
+            let en = localStorage.getItem('event');
+            if (en != null) {
+                if (en === 'Индира' || en === 'Indira') {
+                    en = en + ' 💝'
+                }
+            }
+            h2.textContent = en
             h3.textContent = 'Siz kechikdingiz'
         } else {
             const d = Math.floor(dif / 86400)
@@ -33,9 +39,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const inputs = document.querySelectorAll('input');
     let evf = localStorage.getItem('event')
     if (evf != null) {
-        if (evf === 'Индира' || evf === 'Indira') {
-            evf = evf + ' 💝'
-        }
         inputs[0].defaultValue = evf
     }
     const tif = localStorage.getItem('time')
