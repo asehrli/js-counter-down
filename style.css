@@ -38,6 +38,7 @@ body {
 
 #set svg {
     transition: .5s;
+    color: yellow;
 }
 
 
