@@ -31,9 +31,13 @@ document.addEventListener('DOMContentLoaded', () => {
     }, 1000)
 
     const inputs = document.querySelectorAll('input');
-    const evf = localStorage.getItem('event')
-    if (evf != null)
+    let evf = localStorage.getItem('event')
+    if (evf != null) {
+        if (evf === 'Индира' || evf === 'Indira') {
+            evf = evf + ' 💝'
+        }
         inputs[0].defaultValue = evf
+    }
     const tif = localStorage.getItem('time')
     if (tif != null)
         inputs[1].value = new Date(+tif).toISOString().split('T')[0]
