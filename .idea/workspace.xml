@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e865e2e8-22f0-4516-8968-310355a6c360" name="Changes" comment="text color is pink" />
+    <list default="true" id="e865e2e8-22f0-4516-8968-310355a6c360" name="Changes" comment="new ui degree">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,7 +81,13 @@
       <workItem from="1720416808805" duration="575000" />
       <workItem from="1720522888820" duration="8000" />
       <workItem from="1720523241871" duration="619000" />
-      <workItem from="1721583543737" duration="316000" />
+      <workItem from="1721583543737" duration="1252000" />
+      <workItem from="1721629676422" duration="1551000" />
+      <workItem from="1721631310520" duration="103000" />
+      <workItem from="1721641203567" duration="1423000" />
+      <workItem from="1721642758769" duration="74000" />
+      <workItem from="1721642899780" duration="976000" />
+      <workItem from="1721643987334" duration="1233000" />
     </task>
     <task id="LOCAL-00001" summary="text color is warning">
       <option name="closed" value="true" />
@@ -104,7 +113,111 @@
       <option name="project" value="LOCAL" />
       <updated>1721583775898</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="lang is uz">
+      <option name="closed" value="true" />
+      <created>1721584169639</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1721584169639</updated>
+    </task>
+    <task id="LOCAL-00005" summary="style changed btn deleted">
+      <option name="closed" value="true" />
+      <created>1721631231721</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1721631231721</updated>
+    </task>
+    <task id="LOCAL-00006" summary="style changed btn deleted">
+      <option name="closed" value="true" />
+      <created>1721631403427</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1721631403427</updated>
+    </task>
+    <task id="LOCAL-00007" summary="new ui">
+      <option name="closed" value="true" />
+      <created>1721642630289</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1721642630289</updated>
+    </task>
+    <task id="LOCAL-00008" summary="new ui">
+      <option name="closed" value="true" />
+      <created>1721642822385</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1721642822385</updated>
+    </task>
+    <task id="LOCAL-00009" summary="new ui">
+      <option name="closed" value="true" />
+      <created>1721643451743</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1721643451743</updated>
+    </task>
+    <task id="LOCAL-00010" summary="new ui">
+      <option name="closed" value="true" />
+      <created>1721643558071</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1721643558071</updated>
+    </task>
+    <task id="LOCAL-00011" summary="new ui">
+      <option name="closed" value="true" />
+      <created>1721643599528</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1721643599528</updated>
+    </task>
+    <task id="LOCAL-00012" summary="new ui">
+      <option name="closed" value="true" />
+      <created>1721643856028</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1721643856028</updated>
+    </task>
+    <task id="LOCAL-00013" summary="new ui text shadow">
+      <option name="closed" value="true" />
+      <created>1721644160316</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1721644160316</updated>
+    </task>
+    <task id="LOCAL-00014" summary="new ui dark">
+      <option name="closed" value="true" />
+      <created>1721644824740</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1721644824740</updated>
+    </task>
+    <task id="LOCAL-00015" summary="new ui degree">
+      <option name="closed" value="true" />
+      <created>1721644994831</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1721644994831</updated>
+    </task>
+    <task id="LOCAL-00016" summary="new ui degree">
+      <option name="closed" value="true" />
+      <created>1721645097834</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1721645097834</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,6 +227,12 @@
     <MESSAGE value="text color is warning" />
     <MESSAGE value="text color is danger" />
     <MESSAGE value="text color is pink" />
-    <option name="LAST_COMMIT_MESSAGE" value="text color is pink" />
+    <MESSAGE value="lang is uz" />
+    <MESSAGE value="style changed btn deleted" />
+    <MESSAGE value="new ui" />
+    <MESSAGE value="new ui text shadow" />
+    <MESSAGE value="new ui dark" />
+    <MESSAGE value="new ui degree" />
+    <option name="LAST_COMMIT_MESSAGE" value="new ui degree" />
   </component>
 </project>
