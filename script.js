@@ -31,8 +31,12 @@ document.addEventListener('DOMContentLoaded', () => {
     }, 1000)
 
     const inputs = document.querySelectorAll('input');
-    inputs[0].defaultValue = localStorage.getItem('event')
-    inputs[1].value = new Date(+localStorage.getItem('time')).toISOString().split('T')[0]
+    const evf = localStorage.getItem('event')
+    if (evf != null)
+        inputs[0].defaultValue = evf
+    const tif = localStorage.getItem('time')
+    if (tif != null)
+        inputs[1].value = new Date(+tif).toISOString().split('T')[0]
 
     inputs[0].addEventListener('input', (e) => {
         h2.textContent = e.target.value;
