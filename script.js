@@ -31,7 +31,13 @@ document.addEventListener('DOMContentLoaded', () => {
             dif = dif % 60
             const s = dif
 
-            h2.textContent = localStorage.getItem('event')
+            let en = localStorage.getItem('event');
+            if (en != null) {
+                if (en === 'Индира' || en === 'Indira') {
+                    en = en + ' 💝'
+                }
+            }
+            h2.textContent = en
             h3.textContent = `${d} kun ${h} soat ${m}:${s}`
         }
     }, 1000)
