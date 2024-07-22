@@ -25,6 +25,10 @@ body {
     color: white;
 }
 
+.counter h3, h2 {
+    text-shadow: 0 3px 10px rgba(0, 0, 0, 0.8);
+}
+
 #set {
     position: fixed;
     background-color: rgba(0, 0, 0, 0.5);
