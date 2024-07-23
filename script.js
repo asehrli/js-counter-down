@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
             }
             h2.textContent = en
-            h3.textContent = 'Siz kechikdingiz'
+            h3.textContent = 'Happy birthday to you 🎉🎉🎉'
         } else {
             const d = Math.floor(dif / 86400)
             dif = dif % 86400
