@@ -66,5 +66,24 @@ document.addEventListener('DOMContentLoaded', () => {
     svg.addEventListener('click', () => {
         set.classList.toggle('close')
     })
+
+
+    const fireworks = document.querySelectorAll('.firework');
+
+    function positionFireworks() {
+        fireworks.forEach(firework => {
+            firework.style.left = `${Math.random() * 100}%`;
+            firework.style.top = `${Math.random() * 100}%`;
+        });
+    }
+
+    positionFireworks();
+
+    setInterval(() => {
+        positionFireworks();
+        positionFireworks();
+    }, 300);
 })
+
+
 
